@@ -7,19 +7,18 @@
 //
 
 import UIKit
+import Firebase
+
 
 class ViewController: UIViewController {
 
+    @IBAction func Logout(_ sender: UIButton) {
+    }
+    // MARK: @IBAction
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
